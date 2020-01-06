@@ -1,6 +1,6 @@
 {
   "name": "@project-zendstar/logger",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "",
   "main": "./lib/logger.js",
   "scripts": {
@@ -13,8 +13,10 @@
   "author": "",
   "license": "ISC",
   "dependencies": {
-    "dotenv": "^8.2.0",
     "winston": "^3.2.1",
     "winston-daily-rotate-file": "^4.2.1"
+  },
+  "devDependencies": {
+    "dotenv": "^8.2.0"
   }
 }
